@@ -27,7 +27,7 @@ If you add new items to a list, the new items will be placed at the end of the l
 list = ["apple", "banana", "orange", "strawberry"]
 print("The list is: ", list)
 print("List item 1", list[0])
-print("List item 3", list[2])
+
 ```
 
 ## Changeable
@@ -42,5 +42,16 @@ Since lists are indexed, lists can have items with the same value.
 list = ["apple", "banana", "orange", "strawberry", "apple"]
 print("The list is: ", list)
 ```
+
+## Access Items
+
+List items are indexed and you can access them by referring to the index number.
+
+```python
+list = ["apple", "banana", "orange", "strawberry", "apple"]
+print("The list is: ", list[0])
+print("The list is: ", list[1])
+```
+
 
 Source(https://www.w3schools.com/python/python_lists.asp)
