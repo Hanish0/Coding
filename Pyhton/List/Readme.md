@@ -6,6 +6,11 @@ Lists are one of 4 built-in data types in Python used to store collections of da
 
 Lists are created using square brackets. 
 
+```python
+list = ["apple", "banana", "orange", "strawberry"]
+print("The list is: ", list)
+```
+
 ## List Items
 
 List items are ordered, changeable, and allow duplicate values.
@@ -18,6 +23,13 @@ When we say that lists are ordered, it means that the items have a defined order
 
 If you add new items to a list, the new items will be placed at the end of the list.
 
+```python
+list = ["apple", "banana", "orange", "strawberry"]
+print("The list is: ", list)
+print("List item 1", list[0])
+print("List item 3", list[2])
+```
+
 ## Changeable
 
 The list is changeable, meaning that we can change, add, and remove items in a list after it has been created.
@@ -25,5 +37,10 @@ The list is changeable, meaning that we can change, add, and remove items in a l
 ## Allow Duplicates
 
 Since lists are indexed, lists can have items with the same value.
+
+```python
+list = ["apple", "banana", "orange", "strawberry", "apple"]
+print("The list is: ", list)
+```
 
 Source(https://www.w3schools.com/python/python_lists.asp)
