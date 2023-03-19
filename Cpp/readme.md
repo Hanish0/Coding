@@ -1,1 +1,1 @@
-## Soluions to problems in C++
+## Solutions to problems in C++
